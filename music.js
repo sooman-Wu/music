@@ -18,7 +18,7 @@ $(function(){
     } 
     // 获取歌曲
     var database=[];
-    $.getJSON('music/database.json').done(function(data){
+    $.getJSON('./music/database.json').done(function(data){
       // console.log(data)
       database=data;
       makelist();
