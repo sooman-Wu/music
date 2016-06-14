@@ -1,0 +1,59 @@
+[
+  {
+    "filename": "./MP3/2PM-Again & Again.mp3",
+    "duration": "04:05",
+    "title": "Again & Again",
+    "album": "1:59 PM",
+    "artist": "2PM"
+  },
+  {
+    "filename": "./MP3/2PM-I'll Be Back.mp3",
+    "duration": "03:36",
+    "title": "I'll Be Back",
+    "artist": "2PM"
+  },
+  {
+    "filename": "./MP3/bang.mp3",
+    "duration": "03:40"
+  },
+  {
+    "filename": "./MP3/BigBang-Bang Bang Bang(Ferry Remix).mp3",
+    "duration": "04:32",
+    "title": "Bang Bang Bang(Ferry Remix)",
+    "artist": "BigBang"
+  },
+  {
+    "filename": "./MP3/bingbang-Fantastic Baby.mp3",
+    "duration": "03:59",
+    "title": "Fantastic Baby",
+    "artist": "bingbang"
+  },
+  {
+    "filename": "./MP3/you.mp3",
+    "duration": "04:24"
+  },
+  {
+    "filename": "./MP3/匆匆那年.mp3",
+    "duration": "04:01",
+    "title": "匆匆那年(电影《匆匆那年》同名主题曲)",
+    "album": "匆匆那年",
+    "artist": "王菲"
+  },
+  {
+    "filename": "./MP3/如果我变成回忆.mp3",
+    "duration": "05:01",
+    "title": "如果我变成回忆",
+    "artist": "Tank"
+  },
+  {
+    "filename": "./MP3/演员.mp3",
+    "duration": "04:21"
+  },
+  {
+    "filename": "./MP3/黄致列-那个人.mp3",
+    "duration": "05:17",
+    "title": "那个人",
+    "album": "我是歌手第四季 第一期",
+    "artist": "黄致列"
+  }
+]

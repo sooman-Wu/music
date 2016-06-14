@@ -1,0 +1,105 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>qq音乐</title>
+	<link rel="stylesheet" href="music.css">
+	<script src="bower_components\jquery\dist\jquery.js"></script>
+	<script src="music.js"></script>
+</head>
+<body>
+<audio src="" class="audio"></audio>
+	<div class="m_player">
+		<div class="m_player_dock">
+			<div class="music_info">
+				<a href="" class="album_pic">
+					<!-- <img src="" alt=""> -->
+				</a>
+				<div class="music_info_main">
+					<p class="music_name">
+						<span id="music_name">想听的歌</span>
+						<a href="" class="icon_radio"></a>
+					</p>
+					<p class="singer_name" id="singer_name">qq音乐</p>
+					<p class="play_data" id="ptime"></p>
+					<p class="music_op">
+						<strong class="btn_like" title="喜欢"></strong>
+						<strong class="btn_share" title="分享"></strong>
+					</p>
+				</div>
+			</div>
+			<div class="bofang">
+				<strong class="prev_bt" title="上一首([)"></strong>
+				<strong id="bntplay" class="play_bt" title="播放(p)"></strong>
+				<strong class="next_bt" title="下一首(])"></strong>
+				<strong id="cycle"class="cycle_bt" title="列表循环"></strong>
+                <p class="volume" title="音量调节">
+                	<strong id="spanmute" class="laba" title="点击设为静音(M)"></strong>
+                	<strong class="jindu">
+                		<strong class="jindu_left"></strong>
+                    	<strong class="jindu_yuan"></strong>
+                	</strong>
+                    
+                </p>
+			</div>
+			<p class="bofang_select">
+				<strong class="ordered_bt" title="顺序播放"></strong>
+				<strong class="unordered_bt" title="随机播放"></strong>
+				<strong class="cycle_single_bt" title="单曲循环"></strong>
+				<strong class="cycle_bt" title="列表循环"></strong>
+			</p>
+			<p class="player_bar">
+				<span class="player_bg_bar"></span>
+				<span class="download_bar"></span>
+				<span class="play_jindu_bar"></span>
+				<span class="jindu_op"></span>
+			</p>
+			<div class="time_show">
+				<p id="time_show"></p>
+				<span class="icon_arrow_foot">
+				<span class="foot_border"></span>
+				<span class="foot_arrow"></span>
+				</span>
+			</div>
+		</div>
+		<span class="open_list" title="展开播放列表">
+			<span>2</span>
+		</span>
+		<span class="geci" title="显示歌词(L)"></span>
+		<div class="folded_bt" title="点击收起"></div>
+		<div class="liebiao_box">
+			<div class="liebiao_title">
+				<ul class="tab_container">
+					<li class="bofang_tab">
+						<a href="#">播放列表</a>
+						<i></i>
+					</li>
+					<li class="diantai">
+						<a href="#">单曲电台列表</a>
+					</li>
+				</ul>
+				<span class="clear_list">清空列表</span>
+				<strong class="close_list" title="收起播放列表"></strong>
+			</div>
+			<div class="play_list">
+				<div class="play_list_main">
+					<div class="single_list">
+						<ul class="cc">
+							<!-- <li>
+								<span class="music_name" title="六月的雨">六月的雨</span>  
+								<span class="singer_name" title="胡歌">胡歌</span> 
+								<span class="play_time">1:43</span>  
+						    </li>
+						    <li>
+								<span class="music_name" title="六月的雨">If you</span>  
+								<span class="singer_name" title="胡歌">BIGBANG</span> 
+								<span class="play_time">4:43</span>  
+						    </li> -->
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
